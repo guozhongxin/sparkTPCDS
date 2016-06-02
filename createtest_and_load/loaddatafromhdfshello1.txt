@@ -1,0 +1,56 @@
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/customer_address.dat' OVERWRITE INTO TABLE customer_address;
+
+  LOAD DATA  INPATH 'hdfs://hello1:9000/1t/dbgen_version.dat' OVERWRITE INTO TABLE dbgen_version;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/customer_demographics.dat' OVERWRITE INTO TABLE customer_demographics;
+
+ LOAD DATA INPATH 'hdfs://hello1:9000/1t/date_dim.dat' OVERWRITE INTO TABLE date_dim;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/warehouse.dat' OVERWRITE INTO TABLE warehouse;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/ship_mode.dat' OVERWRITE INTO TABLE ship_mode;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/time_dim.dat' OVERWRITE INTO TABLE time_dim;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/reason.dat' OVERWRITE INTO TABLE reason;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/income_band.dat' OVERWRITE INTO TABLE income_band;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/item.dat' OVERWRITE INTO TABLE  item;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/store.dat' OVERWRITE INTO TABLE store;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/call_center.dat' OVERWRITE INTO TABLE call_center;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/customer.dat' OVERWRITE INTO TABLE customer;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/web_site.dat' OVERWRITE INTO TABLE web_site;
+
+ LOAD DATA INPATH 'hdfs://hello1:9000/1t/store_returns.dat' OVERWRITE INTO TABLE store_returns;
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/household_demographics.dat' OVERWRITE INTO TABLE household_demographics;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/web_page.dat' OVERWRITE INTO TABLE web_page;
+
+ LOAD DATA  INPATH 'hdfs://hello1:9000/1t/promotion.dat' OVERWRITE INTO TABLE promotion;
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/catalog_page.dat' OVERWRITE INTO TABLE catalog_page;
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/inventory.dat' OVERWRITE INTO TABLE inventory;
+
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/catalog_returns.dat' OVERWRITE INTO TABLE catalog_returns;
+
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/web_returns.dat' OVERWRITE INTO TABLE web_returns;
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/web_sales.dat' OVERWRITE INTO TABLE web_sales;
+
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/catalog_sales.dat' OVERWRITE INTO TABLE catalog_sales;
+
+LOAD DATA  INPATH 'hdfs://hello1:9000/1t/store_sales.dat' OVERWRITE INTO TABLE store_sales;
